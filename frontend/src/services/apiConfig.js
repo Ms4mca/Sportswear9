@@ -246,6 +246,9 @@ export const makeRequest = async (endpoint, options = {}, useCache = false) => {
     if (error.name === 'AbortError') {
       throw new Error('Request timeout');
     }
+    if (error instanceof TypeError) {
+      throw new Error('Unable to reach API server. Check CORS, SSL, or backend availability.');
+    }
     throw error;
   }
 };

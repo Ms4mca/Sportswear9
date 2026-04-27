@@ -253,8 +253,19 @@ function Home2() {
   if (homepageError && productsError) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center text-red-500 p-8">
-          Error loading page content. Please refresh the page.
+        <div className="text-center max-w-2xl text-red-500 p-8">
+          <p className="text-lg font-semibold">
+            Error loading page content.
+          </p>
+          <p className="mt-2 text-sm text-red-400">
+            Homepage error: {homepageError}
+          </p>
+          <p className="mt-1 text-sm text-red-400">
+            Product error: {productsError}
+          </p>
+          <p className="mt-4 text-sm text-gray-500">
+            If this is happening only on the live site, the backend likely needs to allow your Vercel domain in CORS/SSL settings.
+          </p>
         </div>
       </div>
     );
