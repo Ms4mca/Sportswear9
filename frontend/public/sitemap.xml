@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ============================== -->
+  <!--         CORE PAGES             -->
+  <!-- ============================== -->
+
+  <url>
+    <loc>https://www.sportswear9.com/</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/categories</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/sports</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ============================== -->
+  <!--       INFO & BRAND PAGES       -->
+  <!-- ============================== -->
+
+  <url>
+    <loc>https://www.sportswear9.com/OurStory</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/Careers</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/ContactUs</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/SizeGuide</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ============================== -->
+  <!--       POLICIES & LEGAL         -->
+  <!-- ============================== -->
+
+  <url>
+    <loc>https://www.sportswear9.com/privacy</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/privacypolicy</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/terms</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/termsofuse</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/ReturnRefund</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/ShippingDelivery</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/Cancellation</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ============================== -->
+  <!--       SUPPORT / TICKETS        -->
+  <!-- ============================== -->
+
+  <url>
+    <loc>https://www.sportswear9.com/tickets</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/tickets/create</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/tickets/lookup</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- ============================== -->
+  <!--   BRAND PAGES (all 9 brands)   -->
+  <!-- ============================== -->
+
+  <url>
+    <loc>https://www.sportswear9.com/brand/Gymific</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/brand/KYK</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/brand/Never%20Lose</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/brand/Ninq</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/brand/Sportinger</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/brand/Train%20Hard%20Everyday</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/brand/Unbeatable</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/brand/WMX</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sportswear9.com/brand/Work%20For%20It</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ============================== -->
+  <!--   CATEGORY PAGES (14 unique)   -->
+  <!-- ============================== -->
+
+  <!-- Sportswear9 -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-5SZ7847WB2XQ</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Leggings -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-48KWXZH93RJU</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- T-shirt -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-E3V0FROVSVZP</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sport's Top -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-WWB1Z7DDB13T</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Combos -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-TYQMF45N4WOL</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Jacket -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-IBJ2N8W4CCPP</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Cargo's -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-AHAWZ8ERKUKR</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Stringer/Vest -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-L4DRAJ5L4IDS</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Shorts -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-I3SN3Q9WQWDW</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Gym Leggings -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-ZCANRMEVMCAU</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Compression Sets -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-DL7LZEQCQNHI</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Winter Jacket -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-15ZNZ8XQLUVI</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Running Shorts -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-423ZN7DONYVC</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Compression T-shirt -->
+  <url>
+    <loc>https://www.sportswear9.com/product/CAT-TGEPWZC0LH2I</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ============================== -->
+  <!--   PRODUCT DETAIL PAGES (14)    -->
+  <!-- ============================== -->
+
+  <!-- Crop Top -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-USVQ8CBDAZOB/Crop-Top</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Thick High Waist Yoga Pants with Pockets -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-KTQ7PUR2TVYD/Thick-High-Waist-Yoga-Pants-with-Pockets</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Men's Quick Dry Sports T-Shirt -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-TG606ODWCK16/Mens-Quick-Dry-Sports-T-Shirt-for-Gym-Running-and-Training</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Tank Top -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-Y8YQ2464C1RK/Tank-Top</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NINQ Combo Set -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-V5WS07CQ9G8D/NINQ-Combo-Set-for-Women-Gym-Wear-Featuring-Compression-Sports-Bra-and-Wide-Leg-Tight</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NINQ Windproof Women Jacket -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-72931Q3INRUQ/NINQ-Windproof-Poca-Fabric-Women-Jacket-with-Soft-Fur-Lining</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NINQ Men's Cargo Pants -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-SNQO1JKHYG8X/NINQ-Mens-Cargo-Pants-with-Utility-Pockets</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- WMX Army Print Sports Vest -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-P2LQ1OCPNL47/WMX-Sleeveless-Army-Print-Sports-Vest-Camouflage</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NEVER LOSE Men's Running Shorts -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-YDD718EYKC7A/NEVER-LOSE-Mens-Running-Shorts</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NEVER LOSE Women's Leggings -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-W0NUSXBUUXGZ/NEVER-LOSE-Womens-Stretch-Fit-Polyester-Leggings-Tights</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Women Compression T-Shirt -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-615ULEXIE03G/Women-Compression-T-Shirt-Top-Plain-Athletic-Fit-Multi-Sports-Cycling</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Men's High Neck Winter Jacket -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-2QVGL4X442TF/Mens-High-Neck-Winter-Jacket-with-Full-Zip</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NINQ 2 in 1 Running Shorts for Women -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-DRVND48FGHXP/NINQ-2-in-1-Running-Sports-Shorts-for-Women-with-Mobile-Pocket</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NINQ Half Sleeve Compression T-Shirt -->
+  <url>
+    <loc>https://www.sportswear9.com/ProductInfo/PRD-TZL8FM1A0U2V/NINQ-Half-Sleeve-Compression-T-Shirt-Mens-Athletic-and-Sports-Tights-for-Fitness</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
