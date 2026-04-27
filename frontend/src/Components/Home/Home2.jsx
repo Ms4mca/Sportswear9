@@ -29,6 +29,7 @@ import ProductDetail from "./ProductDetail";
 import ProductImageShowcase from "./ProductImageShowcase";
 import { fetchRecentlyViewed } from "../Profile/Profileslice";
 import { useAuth } from "../../context/AuthContext";
+import { resolveMediaUrl } from "../../utils/media";
 
 // ✅ Filtering Helpers
 const transformProductData = (product) => ({
@@ -206,10 +207,11 @@ function Home2() {
     return items.map((item) => ({
       id: item.item_uuid,
       image: item.media?.[0]?.image || "",
+      image: resolveMediaUrl(item.media?.[0]?.image || ""),
       title: item.title,
       subtitle: item.subtitle,
       video: item.media?.[0]?.video || "",
-      thumbnail: item.media?.[0]?.thumbnail || "",
+      thumbnail: resolveMediaUrl(item.media?.[0]?.thumbnail || ""),
       link: item.media[0]?.link || "#",
     }));
   };
@@ -217,10 +219,10 @@ function Home2() {
   const transformToCategoryItems = (items) => {
     return items.map((item) => ({
       name: item.title,
-      image: item.media?.[0]?.image || "",
+      image: resolveMediaUrl(item.media?.[0]?.image || ""),
       subtitle: item.subtitle,
       video: item.media?.[0]?.video || "",
-      thumbnail: item.media?.[0]?.thumbnail || "",
+      thumbnail: resolveMediaUrl(item.media?.[0]?.thumbnail || ""),
       link: item.media[0]?.link || "#",
     }));
   };
@@ -232,12 +234,12 @@ function Home2() {
         id: item.item_uuid,
         title: item.title,
         subtitle: item.subtitle,
-        image: item.media?.[0]?.thumbnail || "",
+        image: resolveMediaUrl(item.media?.[0]?.thumbnail || ""),
         video:
           item.media?.[0]?.video?.video_url ||
           item.media?.[0]?.video?.video ||
           "",
-        thumbnail: item.media?.[0]?.thumbnail || "",
+        thumbnail: resolveMediaUrl(item.media?.[0]?.thumbnail || ""),
         link: item.media?.[0]?.link || item.link || "",
         media: item.media || [],
         order: item.order,
@@ -412,7 +414,7 @@ function Home2() {
                 >
                   <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-full overflow-hidden border border-gray-400 p-1 md:p-4 shadow-md">
                     <img
-                      src={brand.logo}
+                      src={resolveMediaUrl(brand.logo)}
                       className="w-full h-full object-cover"
                       alt={brand.name}
                     />

@@ -13,6 +13,7 @@ import logo from "../../assets/blacklogo.svg";
 import AuthModal from "../Auth/AuthModal";
 import MobileSidebar from "./MobileSidebar";
 import LocationSelector from "./LocationSelector";
+import { resolveMediaUrl } from "../../utils/media";
 
 // Lucide icons
 import {
@@ -349,7 +350,7 @@ function Navbar() {
             {/* Logo - Smaller on mobile */}
             <Link to="/" className="flex-shrink-0">
               <img 
-                src={storeDetails?.logo || logo} 
+                src={resolveMediaUrl(storeDetails?.logo) || logo} 
                 alt={storeDetails?.storeName || "Sportswear9"} 
                 className="h-8 sm:h-8 md:h-10"
                 onError={(e) => {

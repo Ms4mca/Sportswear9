@@ -25,6 +25,7 @@ import {
   ArrowUpDown 
 } from "lucide-react";
 import LandscapeCarousel from "../Banner&Carousels/LandscapeCarousel";
+import { resolveMediaUrl } from "../../utils/media";
 
 // Product Card
 function ProductCard({ product }) {
@@ -65,7 +66,7 @@ function ProductCard({ product }) {
 
           {/* Primary Image */}
           <img
-            src={product.img}
+            src={resolveMediaUrl(product.img)}
             alt={product.title}
             className="absolute inset-0 w-full h-full object-contain transition-all duration-500 group-hover:scale-110 group-hover:opacity-0"
             loading="lazy"
@@ -74,7 +75,7 @@ function ProductCard({ product }) {
           {/* Secondary Image (on hover) */}
           {product.img2 && (
             <img
-              src={product.img2}
+              src={resolveMediaUrl(product.img2)}
               alt={`${product.title} Hover`}
               className="absolute inset-0 w-full h-full object-contain opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:scale-105"
               loading="lazy"
@@ -863,8 +864,8 @@ function Product() {
         discount: product.discount || "",
         brand: product.brand?.name || product.brand || "",
         category: product.category?.name || "Uncategorized",
-        img: product.img || "",
-        img2: product.img2 || "",
+        img: resolveMediaUrl(product.img || ""),
+        img2: resolveMediaUrl(product.img2 || ""),
         average_rating: product.average_rating || 4.5,
         isFeatured: product.is_featured || false,
       };
@@ -965,7 +966,7 @@ function Product() {
             <LandscapeCarousel
               items={bannerItems.map((i) => ({
                 id: i.item_uuid || i.id,
-                image: i.media?.[0]?.image || i.image,
+                image: resolveMediaUrl(i.media?.[0]?.image || i.image),
               }))}
             />
           </div>

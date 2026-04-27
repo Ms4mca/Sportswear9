@@ -8,6 +8,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchHomepageLevels, selectHomepageLevels } from '../Home/HomePageSlice';
+import { resolveMediaUrl } from '../../utils/media';
 
 const MobileSidebar = ({ isOpen, onClose, openAuthModal, categories }) => {
   const navigate = useNavigate();
@@ -58,7 +59,7 @@ const MobileSidebar = ({ isOpen, onClose, openAuthModal, categories }) => {
           .filter(item => item.media?.[0]?.image) // Only include items with images
           .map(item => ({
             name: item.title,
-            image: item.media[0].image,
+            image: resolveMediaUrl(item.media[0].image),
             originalTitle: item.title
           }));
       }
@@ -67,7 +68,7 @@ const MobileSidebar = ({ isOpen, onClose, openAuthModal, categories }) => {
       if (sectionTitle === "Main-Categories" && section.items) {
         section.items.forEach(item => {
           if (item.title && item.media?.[0]?.image) {
-            categoryMap[item.title] = item.media[0].image;
+            categoryMap[item.title] = resolveMediaUrl(item.media[0].image);
           }
         });
       }
@@ -78,7 +79,7 @@ const MobileSidebar = ({ isOpen, onClose, openAuthModal, categories }) => {
           if (item.title && item.media?.[0]?.image) {
             // Store with section context to avoid collisions
             const keyWithSection = `${sectionTitle}::${item.title}`;
-            categoryMap[keyWithSection] = item.media[0].image;
+            categoryMap[keyWithSection] = resolveMediaUrl(item.media[0].image);
           }
         });
       }
